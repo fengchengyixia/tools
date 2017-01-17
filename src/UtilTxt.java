@@ -6,9 +6,6 @@ import java.io.FileWriter;
 import java.util.List;
 
 public class UtilTxt {
-	/**
-	*@pram path
-	*/
 	public String  write(String path, String fileName,List<String[]> list) throws Exception {
 		String txtPath = path + File.separator + fileName;
 		BufferedWriter Writer=null;
